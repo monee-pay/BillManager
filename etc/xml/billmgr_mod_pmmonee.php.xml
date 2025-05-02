@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mgrdata>
+	<plugin name="pmmonee.php">
+		<group>payment_method</group>
+		<msg name="desc_short" lang="ru">Monee</msg>
+		<msg name="desc_short" lang="en">Monee</msg>
+		<msg name="desc_full" lang="ru">Платежный модуль Monee</msg>
+		<msg name="desc_full" lang="en">Payment module Monee</msg>
+		<msg name="price" lang="ru">Бесплатно</msg>
+		<msg name="price" lang="en">Free</msg>
+	</plugin>
+
+	<metadata name="paymethod.edit.monee.php" type="form">
+		<form>
+			<page name="methodprops">
+				<field name="shop_uuid">
+					<input name="shop_uuid" private="yes" required="yes" type="text"/>
+				</field>
+			</page>
+		</form>
+	</metadata>
+
+	<lang name="en">
+		<messages name="label_paymethod">
+			<msg name="pmmoneey.php">Monee</msg>
+			<msg name="module_pmmonee.php">Monee</msg>
+		</messages>
+		<messages name="paymethod.edit.monee.php">
+			<msg name="shop_uuid">Merchant UUID (get it in merchant settings)</msg>
+		</messages>
+	</lang>
+
+	<lang name="ru">
+		<messages name="label_paymethod">
+			<msg name="pmmonee.php">Monee</msg>
+			<msg name="module_pmmonee.php">Monee</msg>
+		</messages>
+		<messages name="paymethod.edit.monee.php">
+			<msg name="shop_uuid">UUID мерчанта (можно узнать в настройках мерчанта)</msg>
+		</messages>
+	</lang>
+</mgrdata>
